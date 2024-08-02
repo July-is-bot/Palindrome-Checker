@@ -1,0 +1,74 @@
+:root {
+    --color1: #110744;
+    --color2: #b9c2ff;
+    --color3: #0011FF;
+    --color4: #640D14;
+    --color5: #800E13;
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid var(--color2);
+}
+
+body {
+    background-color: var(--color1);
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2 {
+    text-align: center  ;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#palindrome {
+    border: 3px solid var(--color2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background: linear-gradient(var(--color3), transparent);
+}
+
+#palindrome input, button {
+    height: 3vh;
+    margin: 10px 5px;
+    background-color: var(--color1);
+    color: white;
+}
+
+#palindrome label {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+#result {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+#palindrome, #palindrome-definition {
+    max-width: 50vw;
+    margin: 10px auto;
+}
+
+#palindrome-definition p{
+    padding: 10px;
+}
+
+.green {
+    border: 3px solid green;
+
+}
+
+.red {
+    border: 3px solid red;
+}
